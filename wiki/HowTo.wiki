@@ -2,10 +2,9 @@
 
 = Introduction =
 
-I will try to explain you how to use a SVN repository here.
+ http://upload.wikimedia.org/wikipedia/en/7/79/Subversion.png
 
-http://upload.wikimedia.org/wikipedia/en/7/79/Subversion.png
-
+ I will try to explain you how to use a SVN repository here.
 ----
 
 ||Developer(s)||Community, and developers from CollabNet, Elego, WANdisco, VisualSVN||
