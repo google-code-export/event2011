@@ -4,8 +4,9 @@
 
 I will try to explain you how to use a SVN repository here.
 
-
 http://upload.wikimedia.org/wikipedia/en/7/79/Subversion.png
+
+----
 
 ||Developer(s)||Community, and developers from CollabNet, Elego, WANdisco, VisualSVN||
 ||Initial release||October 20, 2000||
@@ -16,9 +17,15 @@ http://upload.wikimedia.org/wikipedia/en/7/79/Subversion.png
 ||License||Apache License||
 ||Website||http://subversion.apache.org||
 
+----
+
 = Why SVN? =
 We could use Git, Mercurial or CVS.
 
-*Wikipedia*
+Git is more complicated (not very _user-friedly_), and runs perfectly on UNIX Systems.
 
-_"Apache Subversion (often abbreviated SVN) is a software versioning and a revision control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation."_
+There is few diferences bewteen Mercurial and SVN. Commands change, and Mercurial is better for big projects.
+
+ ||http://gabrito.com/wp-content/uploads/2010/11/git-logo.png||http://gl2i.com/blog/beta-4.1.1/data/images/subversion_logo_hor-468x64.png||http://www.aragost.com/wp-content/uploads/2010/10/mercurial-logo.png||
+
+ _"Apache Subversion (often abbreviated SVN) is a software versioning and a revision control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation."_ *Wikipedia*
