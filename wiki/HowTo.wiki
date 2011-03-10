@@ -59,4 +59,11 @@ You can use Windows Shell, but "there's an app for that!".
 
  ===Tortoise SVN===
 
-Tortoise SVN is an extension of Microsoft Windows Shell. 
+Tortoise SVN is an extension of Microsoft Windows Shell.
+It is integrated in Windows Explorer
+
+ http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/TortoiseSVN.png/250px-TortoiseSVN.png
+
+You can download TortoiseSVN <a href="http://tortoisesvn.net/downloads.html">here.</a>
+
+Once you have downloaded and installed it, create a new folder
