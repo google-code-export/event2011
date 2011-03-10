@@ -2,6 +2,8 @@
 
 = Introduction =
 
+To share our code, it's really easier if we have a Version Control System. That's why we are going to use SVN, a famous software versioning and a revision control system.
+
  http://upload.wikimedia.org/wikipedia/en/7/79/Subversion.png
 
  I will try to explain you how to use a SVN repository here.
@@ -19,7 +21,9 @@
 ----
 
 = Why SVN? =
-We could use Git, Mercurial or CVS.
+ _"Apache Subversion (often abbreviated SVN) is a software versioning and a revision control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation."_ *Wikipedia*
+
+But we could alse use Git, Mercurial or CVS.
 
 Git is more complicated (not very _user-friedly_), and runs perfectly on UNIX Systems.
 
@@ -27,4 +31,32 @@ There is few diferences bewteen Mercurial and SVN. Commands change, and Mercuria
 
  ||http://gabrito.com/wp-content/uploads/2010/11/git-logo.png||http://gl2i.com/blog/beta-4.1.1/data/images/subversion_logo_hor-468x64.png||http://www.aragost.com/wp-content/uploads/2010/10/mercurial-logo.png||
 
- _"Apache Subversion (often abbreviated SVN) is a software versioning and a revision control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation."_ *Wikipedia*
+----
+
+=What is a Version Control System?=
+
+Lors de la conception d'un projet informatique, il est très important de garder une trace de toutes les updates faites par chacun des membres. C'est là qu'intervient le Versioning.
+Le Versioning sert aussi à mettre en commun du code.
+Le code est hébergé sur Internet.
+
+A chaque fois qu'un membre de l'équipe veut coder, il doit avoir le bon réflexe : télécharger la dernière version du projet sur son ordinateur. Il récupère ainsi tous les changements effectués par les autres membres de l'équipe et peut commencer à coder sur la nouvelle version du projet.
+
+Une fois que le codeur a fini son travail et que son application est fonctionnelle (sans bug), il doit l'upload sur le serveur SVN. Les autres membres de l'équipe pourront alors récupérer les changements et coder sur la dernière version du projet.
+
+==Que se passe-t-il si deux personnes modifient en même temps le projet ?==
+
+Comme dis plus haut, avant de coder, le codeur DOIT télécharger la dernière version du projet. Avant d'upload ses mises à jours, il DOIT encore télécharger la dernière version, et voir si aucun conflit n'apparaît. Si aucun conflit n'apparaît, il peut alors upload son code.
+Donc si deux personnes codent en même temps, la première personne à uploader son code l'uploadera. La seconde téléchargera les modifications de la première personne, regardera s'il n'y a aucun conflit, et uploadera son code ensuite. Simple, non ?
+
+===Que se passe-t-il si les deux personnes modifient le même fichier ?===
+Aucun problème si on suit la méthode décrite au dessus.
+
+----
+
+= SVN. How can I use it? =
+
+You can use Windows Shell, but "there's an app for that!".
+
+ ===Tortoise SVN===
+
+Tortoise SVN is an extension of Microsoft Windows Shell. 
