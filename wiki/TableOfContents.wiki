@@ -1,1 +1,1 @@
- * [Articles HowToSVNRepo]
+ * [HowToSVNRepo How to use a SVN repo]
