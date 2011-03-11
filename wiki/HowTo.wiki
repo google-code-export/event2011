@@ -81,8 +81,34 @@ So, make all modifications you want, add files, and then, right click on the mai
 
 *- update:* you'll recevieve all news files and changes,
 
-*- commit:* to put your changes online.
+*- commit:* to put your changes online. If you commit something, don't forget to leave a comment. It will help us to know where we are.
 
 
- ====What happends if there is a conflict?===
-If there is a conflict, TortoiseSVN will tell it to you and you can't upload your 
+ ==What happends if there is a conflict?==
+If there is a conflict, TortoiseSVN will tell it to you and you can't upload your code. In the file which is conflicted, you will see a change :
+
+ * file.html:
+{{{
+<<<<<<< .mine
+ your code here..
+=======
+ the code of s.o else here
+>>>>>>> .r8
+}}} 
+
+Then, make a change in this file (/!\ Remove the <<<<< & >>>>> /!\).
+
+Three files have been created :
+
+{{{
+file.html.mine
+file.html.r7
+file.html.r8
+}}}
+Remove those files and then commit angain!
+
+== Oops, I have commited something which doesn't work!==
+
+Don't panic, right click on the main folder, *TortoiseSVN* -> *Update to Revision* -> *Show log*
+Choose the revision you want.
+----
