@@ -86,6 +86,7 @@ So, make all modifications you want, add files, and then, right click on the mai
 The *first time* you commit something, you will be asked to enter a login and a password:
 
 - login: you email adress
+
 - password: look at it there: https://code.google.com/hosting/settings
 
 
