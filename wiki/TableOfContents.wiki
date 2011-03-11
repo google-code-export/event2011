@@ -1,1 +1,1 @@
- * [Articles HowTo]
+ * [Articles HowToSVNRepo]
