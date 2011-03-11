@@ -1,0 +1,114 @@
+#summary How to use SVN repo
+
+= Introduction =
+
+To share our code, it's really easier if we have a Version Control System. That's why we are going to use SVN, a famous software versioning and a revision control system.
+
+ http://upload.wikimedia.org/wikipedia/en/7/79/Subversion.png
+
+ I will try to explain you how to use a SVN repository here.
+----
+
+||Developer(s)||Community, and developers from CollabNet, Elego, WANdisco, VisualSVN||
+||Initial release||October 20, 2000||
+||Development status||Active||
+||Written in||C||
+||Operating system||Cross-platform||
+||Type||Revision control||
+||License||Apache License||
+||Website||http://subversion.apache.org||
+
+----
+
+= Why SVN? =
+ _"Apache Subversion (often abbreviated SVN) is a software versioning and a revision control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation."_ *Wikipedia*
+
+But we could alse use Git, Mercurial or CVS.
+
+Git is more complicated (not very _user-friedly_), and runs perfectly on UNIX Systems.
+
+There is few diferences bewteen Mercurial and SVN. Commands change, and Mercurial is better for big projects.
+
+ ||http://gabrito.com/wp-content/uploads/2010/11/git-logo.png||http://gl2i.com/blog/beta-4.1.1/data/images/subversion_logo_hor-468x64.png||http://www.aragost.com/wp-content/uploads/2010/10/mercurial-logo.png||
+
+----
+
+=What is a Version Control System?=
+
+Lors de la conception d'un projet informatique, il est très important de garder une trace de toutes les updates faites par chacun des membres. C'est là qu'intervient le Versioning.
+Le Versioning sert aussi à mettre en commun du code.
+Le code est hébergé sur Internet.
+
+A chaque fois qu'un membre de l'équipe veut coder, il doit avoir le bon réflexe : télécharger la dernière version du projet sur son ordinateur. Il récupère ainsi tous les changements effectués par les autres membres de l'équipe et peut commencer à coder sur la nouvelle version du projet.
+
+Une fois que le codeur a fini son travail et que son application est fonctionnelle (sans bug), il doit l'upload sur le serveur SVN. Les autres membres de l'équipe pourront alors récupérer les changements et coder sur la dernière version du projet.
+
+==Que se passe-t-il si deux personnes modifient en même temps le projet ?==
+
+Comme dis plus haut, avant de coder, le codeur DOIT télécharger la dernière version du projet. Avant d'upload ses mises à jours, il DOIT encore télécharger la dernière version, et voir si aucun conflit n'apparaît. Si aucun conflit n'apparaît, il peut alors upload son code.
+Donc si deux personnes codent en même temps, la première personne à uploader son code l'uploadera. La seconde téléchargera les modifications de la première personne, regardera s'il n'y a aucun conflit, et uploadera son code ensuite. Simple, non ?
+
+===Que se passe-t-il si les deux personnes modifient le même fichier ?===
+Aucun problème si on suit la méthode décrite au dessus.
+
+----
+
+= SVN. How can I use it? =
+
+You can use Windows Shell, but "there's an app for that!".
+
+ ===Tortoise SVN===
+
+Tortoise SVN is an extension of Microsoft Windows Shell.
+It is integrated in Windows Explorer
+
+ http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/TortoiseSVN.png/250px-TortoiseSVN.png
+
+You can download TortoiseSVN <a href="http://tortoisesvn.net/downloads.html">here.</a>
+
+Once you have downloaded and installed it, create a new folder, right click on it, and click on 'SVN Checkout'.
+
+*URL of repository:* https://event2011.googlecode.com/svn/trunk
+
+* -> OK*
+
+TortoiseSVN will download all files which are on our SVN Server (provided by Google)
+
+Congratulations, your folder is now linked with our SVN Repo !
+
+
+So, make all modifications you want, add files, and then, right click on the main folder (the one you created at the beginning), and click on:
+
+*- update:* you'll recevieve all news files and changes,
+
+*- commit:* to put your changes online. If you commit something, don't forget to leave a comment. It will help us to know where we are.
+
+
+ ==What happends if there is a conflict?==
+If there is a conflict, TortoiseSVN will tell it to you and you can't upload your code. In the file which is conflicted, you will see a change :
+
+ * file.html:
+{{{
+<<<<<<< .mine
+ your code here..
+=======
+ the code of s.o else here
+>>>>>>> .r8
+}}} 
+
+Then, make a change in this file (/!\ Remove the <<<<< & >>>>> /!\).
+
+Three files have been created :
+
+{{{
+file.html.mine
+file.html.r7
+file.html.r8
+}}}
+Remove those files and then commit angain!
+
+== Oops, I have commited something which doesn't work!==
+
+Don't panic, right click on the main folder, *TortoiseSVN* -> *Update to Revision* -> *Show log*
+Choose the revision you want.
+----
