@@ -83,6 +83,11 @@ So, make all modifications you want, add files, and then, right click on the mai
 
 *- commit:* to put your changes online. If you commit something, don't forget to leave a comment. It will help us to know where we are.
 
+The *first time* you commit something, you will be asked to enter a login and a password:
+
+- login: you email adress
+- password: look at it there: https://code.google.com/hosting/settings
+
 
  ===What happends if there is a conflict?===
 If there is a conflict, TortoiseSVN will tell it to you and you can't upload your code. In the file which is conflicted, you will see a change :
