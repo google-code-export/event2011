@@ -66,4 +66,23 @@ It is integrated in Windows Explorer
 
 You can download TortoiseSVN <a href="http://tortoisesvn.net/downloads.html">here.</a>
 
-Once you have downloaded and installed it, create a new folder
+Once you have downloaded and installed it, create a new folder, right click on it, and click on 'SVN Checkout'.
+
+*URL of repository:* https://event2011.googlecode.com/svn/trunk
+
+* -> OK*
+
+TortoiseSVN will download all files which are on our SVN Server (provided by Google)
+
+Congratulations, your folder is now linked with our SVN Repo !
+
+
+So, make all modifications you want, add files, and then, right click on the main folder (the one you created at the beginning), and click on:
+
+*- update:* you'll recevieve all news files and changes,
+
+*- commit:* to put your changes online.
+
+
+ ====What happends if there is a conflict?===
+If there is a conflict, TortoiseSVN will tell it to you and you can't upload your 
