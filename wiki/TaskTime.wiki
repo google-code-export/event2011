@@ -1,0 +1,11 @@
+#summary Sum up of our main tasks
+
+What we have to do first?
+
+|| *Task's name* || *Time* ||
+|| Create a venue || 2h ||
+|| Profile of venue || 3h ||
+|| Upload Picture of venue || 1h ||
+|| List venue || 1h ||
+||See venue || 1h ||
+|| Send a booking by organizer || ||
