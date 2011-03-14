@@ -3,9 +3,16 @@
 What we have to do first?
 
 || *Task's name* || *Time* ||
+|| Register User/Login || 2h ||
 || Create a venue || 2h ||
 || Profile of venue || 3h ||
 || Upload Picture of venue || 1h ||
 || List venue || 1h ||
 ||See venue || 1h ||
-|| Send a booking by organizer || ||
+|| Send a booking by organizer || 4h ||
+|| Receive Booking by venue manager||
+|| Respond to booking || 2h ||
+|| Accept/Reject "||
+
+
+|| *Total* || ||
