@@ -129,8 +129,8 @@ What we have to do first?
     <td> </td>
 </tr><tr>
     <td> </td>
-    <td>  </td>
-    <td align=center>  </td>
+    <td> Comments on event </td>
+    <td align=center> 5h </td>
     <td> </td>
 </tr>
 
