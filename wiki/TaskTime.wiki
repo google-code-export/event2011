@@ -2,17 +2,136 @@
 
 What we have to do first?
 
-|| *Task's name* || *Time* ||
-|| Register User/Login || 2h ||
-|| Create a venue || 2h ||
-|| Profile of venue || 3h ||
-|| Upload Picture of venue || 1h ||
-|| List venue || 1h ||
-||See venue || 1h ||
-|| Send a booking by organizer || 4h ||
-|| Receive Booking by venue manager||
-|| Respond to booking || 2h ||
-|| Accept/Reject "||
+<table border=1 width=700 cellspacing=0 cellpadding=5>
+
+<tr align=center ><td colspan=4> <h3>Very High</h3> </td></tr>
+<tr align=center >
+    <td width=50> </td>
+    <td width=500>*Task's name*</td>
+    <td>*Time*</td>
+    <td>*By*</td>
+</tr>
+<tr>
+    <td> </td>
+    <td> Register User/Login </td>
+    <td align=center> 10h </td>
+    <td>  </td>
+</tr>
+<tr>
+    <td> </td>
+    <td> Create a venue </td>
+    <td align=center> 2h </td>
+    <td>  </td>
+</tr>
+<tr>
+    <td> </td>
+    <td> Profile of venue </td>
+    <td align=center> 3h </td>
+    <td>  </td>
+</tr>
+<tr>
+    <td> </td>
+    <td> Upload Picture of venue </td>
+    <td align=center> 1h </td>
+    <td>  </td>
+</tr><tr>
+    <td> </td>
+    <td> List venue </td>
+    <td align=center> 1h </td>
+    <td>  </td>
+</tr><tr>
+    <td> </td>
+    <td> See venue </td>
+    <td align=center> 1h </td>
+    <td>  </td>
+</tr><tr>
+    <td> </td>
+    <td> Send a booking by organizer <br /> Receive Booking by venue manager</td>
+    <td align=center> 4h </td>
+    <td>  </td>
+</tr><tr>
+    <td> </td>
+    <td> Respond to booking <br /> Accept/Reject </td>
+    <td align=center> 2h </td>
+<td>  </td>
+</tr>
 
 
-|| *Total* || ||
+</table>
+<table border=1 width=700 cellspacing=0 cellpadding=7>
+
+<tr align=center ><td colspan=4 height=4> <h3>High</h3> </td></tr>
+<tr align=center >
+    <td width=50> </td>
+    <td width=500>*Task's name*</td>
+    <td>*Time*</td>
+    <td>*By*</td>
+</tr><tr>
+    <td> </td>
+    <td> Create Event </td>
+    <td align=center> 10h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Event profile </td>
+    <td align=center> 3h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Manage event (Edit/Delete/Add) </td>
+    <td align=center> 6h </td>
+    <td> </td>*
+</tr><tr>
+    <td> </td>
+    <td> Sell tickets </td>
+    <td align=center> 10h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Book tickets </td>
+    <td align=center> 5h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Confirmation of ticket sale (EO) </td>
+    <td align=center> 2h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Update tickets </td>
+    <td align=center> 3h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Confirmation of ticket purchase (users) </td>
+    <td align=center> 2h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> View Events on homepage </td>
+    <td align=center> 7h </td>
+    <td> </td>
+</tr>
+
+</table>
+<table border=1 width=700 cellspacing=0 cellpadding=7>
+
+<tr align=center ><td colspan=4 height=4> <h3>Medium</h3> </td></tr>
+<tr align=center >
+    <td width=50> </td>
+    <td width=500>*Task's name*</td>
+    <td>*Time*</td>
+    <td>*By*</td>
+</tr><tr>
+    <td> </td>
+    <td> Registration User Profile </td>
+    <td align=center> 3h </td>
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td>  </td>
+    <td align=center>  </td>
+    <td> </td>
+</tr>
+
+</table>
