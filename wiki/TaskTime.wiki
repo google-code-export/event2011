@@ -7,9 +7,9 @@ What we have to do first?
 <tr align=center ><td colspan=4> <h3>Very High</h3> </td></tr>
 <tr align=center >
     <td width=50> </td>
-    <td width=500>*Task's name*</td>
-    <td>*Time*</td>
-    <td>*By*</td>
+    <td width=500> *Task's name*</td>
+    <td width=75> *Time*</td>
+    <td width=75> *By*</td>
 </tr>
 <tr>
     <td> </td>
@@ -63,9 +63,9 @@ What we have to do first?
 <tr align=center ><td colspan=4 height=4> <h3>High</h3> </td></tr>
 <tr align=center >
     <td width=50> </td>
-    <td width=500>*Task's name*</td>
-    <td>*Time*</td>
-    <td>*By*</td>
+    <td width=500> *Task's name*</td>
+    <td width=75> *Time*</td>
+    <td width=75> *By*</td>
 </tr><tr>
     <td> </td>
     <td> Create Event </td>
@@ -119,9 +119,9 @@ What we have to do first?
 <tr align=center ><td colspan=4 height=4> <h3>Medium</h3> </td></tr>
 <tr align=center >
     <td width=50> </td>
-    <td width=500>*Task's name*</td>
-    <td>*Time*</td>
-    <td>*By*</td>
+    <td width=500> *Task's name*</td>
+    <td width=75> *Time*</td>
+    <td width=75> *By*</td>
 </tr><tr>
     <td> </td>
     <td> Registration User Profile </td>
