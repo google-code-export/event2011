@@ -21,13 +21,13 @@ What we have to do first?
     <td> </td>
     <td> Create a venue </td>
     <td align=center> 2h </td>
-    <td>  </td>
+    <td> Pradeep </td>
 </tr>
 <tr>
     <td> </td>
     <td> Profile of venue </td>
     <td align=center> 3h </td>
-    <td>  </td>
+    <td> Pradeep  </td>
 </tr>
 <tr>
     <td> </td>
@@ -48,12 +48,12 @@ What we have to do first?
     <td> </td>
     <td> Send a booking by organizer <br /> Receive Booking by venue manager</td>
     <td align=center> 4h </td>
-    <td>  </td>
+    <td> Nan </td>
 </tr><tr>
     <td> </td>
     <td> Respond to booking <br /> Accept/Reject </td>
     <td align=center> 2h </td>
-<td>  </td>
+<td> Nan </td>
 </tr>
 
 
@@ -70,12 +70,12 @@ What we have to do first?
     <td> </td>
     <td> Create Event </td>
     <td align=center> 10h </td>
-    <td> </td>
+    <td> X </td>
 </tr><tr>
     <td> </td>
     <td> Event profile </td>
     <td align=center> 3h </td>
-    <td> </td>
+    <td> X </td>
 </tr><tr>
     <td> </td>
     <td> Manage event (Edit/Delete/Add) </td>
