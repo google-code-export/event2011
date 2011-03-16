@@ -80,7 +80,13 @@ What we have to do first?
     <td> </td>
     <td> Manage event (Edit/Delete/Add) </td>
     <td align=center> 6h </td>
-    <td> </td>*
+    <td> </td>
+</tr><tr>
+    <td> </td>
+    <td> Tickets form </td>
+    <td align=center> 10h </td>
+    <td> Vimal </td>
+</tr><tr>
 </tr><tr>
     <td> </td>
     <td> Sell tickets </td>
