@@ -126,7 +126,7 @@ What we have to do first?
     <td> </td>
     <td> Registration User Profile </td>
     <td align=center> 3h </td>
-    <td> </td>
+    <td> Andrew </td>
 </tr><tr>
     <td> </td>
     <td> Comments on event </td>
