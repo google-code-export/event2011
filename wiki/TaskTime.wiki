@@ -15,30 +15,30 @@ What we have to do first?
     <td> </td>
     <td> Register User/Login </td>
     <td align=center> 10h </td>
-    <td>  </td>
+    <td> Pradeep </td>
 </tr>
 <tr>
     <td> </td>
     <td> Create a venue </td>
     <td align=center> 2h </td>
-    <td> Pradeep </td>
+    <td> Andrew</td>
 </tr>
 <tr>
     <td> </td>
     <td> Profile of venue </td>
     <td align=center> 3h </td>
-    <td> Pradeep  </td>
+    <td> Andrew</td>
 </tr>
 <tr>
     <td> </td>
     <td> Upload Picture of venue </td>
     <td align=center> 1h </td>
-    <td>  </td>
+    <td>  Andrew</td>
 </tr><tr>
     <td> </td>
     <td> List venue </td>
     <td align=center> 1h </td>
-    <td>  </td>
+    <td>  Andrew</td>
 </tr><tr>
     <td> </td>
     <td> See venue </td>
@@ -137,7 +137,7 @@ What we have to do first?
     <td> </td>
     <td> Comments on event </td>
     <td align=center> 5h </td>
-    <td> </td>
+    <td> X.</td>
 </tr>
 
 </table>
