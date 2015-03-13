@@ -1,0 +1,1 @@
+The main idea behind building this web application is not just making booking system for users to book a ticket for an Event but also facilitate Event organizer to easily organize/promote/advertize events.
